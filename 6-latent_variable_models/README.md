@@ -7,6 +7,6 @@ These tutorials will teach you about two popular latent variable models: mixture
 
 The hidden Markov model tutorial is accompanied by a library with pre-coded functions (`hmm_library.py`) that are partly based on code from the Linderman lab's [state space models repository](https://github.com/lindermanlab/ssm).
 
-Theoretical introductions and code implementations are mainly based on Christopher Bishop's ["Pattern Recognition and Machine Learning"](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) (2006), especially chapters 9 and 13.
+Theoretical introductions and code implementations are mainly based on Christopher Bishop's ["Pattern Recognition and Machine Learning"](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf) (2006), especially chapters 9 and 13. Other great intros (a bit more explicit on the derivations) can be found on Greg Gundersen's blog: A [theoretical intro to the EM algorithm](https://gregorygundersen.com/blog/2019/11/10/em/) and the [inference of posteriors in the HMM](https://gregorygundersen.com/blog/2020/11/28/hmms/).
 
-Author: Heike Stein
+Author (tutorials): Heike Stein
