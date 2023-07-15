@@ -9,3 +9,5 @@ This dataset is a single subject (subject 1) from experiment 1 of [Haith et al.,
   - target_id is a number from 0-7, indexing the target position before and after target jump
   - target_angle expresses the same variables as angles (in radians)
   - target_x and target_y encode x and y positions of targets before and after the jump, calculated as x = radius * cos(angle) and y = radius * sin(angle)
+
+Moreover, you can find the script to extract the same data from other subjects, if you want: `Haith_data.py`, which reads `Expt1_Data.mat`.
