@@ -58,8 +58,6 @@ for i in range(1,5):
 
 	# columns
 	cols = datContent[0][:-2]
-
-	reftime = datContent[0][-1]
 	
 	# dataframe
 	dat = pd.DataFrame(mat, columns=cols)
@@ -84,8 +82,6 @@ for i in range(1,9):
 
 	# columns
 	cols = datContent[0][:-2]
-
-	reftime = datContent[0][-1]
 	
 	# dataframe
 	dat = pd.DataFrame(mat, columns=cols)
@@ -104,6 +100,9 @@ longdat['PT'] = longdat['RT'] - longdat['DesOnset']
 # change format from float to integer, rename variables
 longdat['subject'] = longdat['Subject'].values.astype('int')-100
 longdat['session'] = longdat['Session'].values.astype('int')
+
+longdat['Trial'].values[np.where(np.isnan(longdat['Trial']))] = 999
+
 longdat['trial'] = longdat['Trial'].values.astype('int')
 longdat['stimulus'] = longdat['Stimulus'].values.astype('int')
 longdat['response'] = longdat['ResponseButton'].values.astype('int')
@@ -115,5 +114,9 @@ longdat['stim_onset'] = longdat['DesOnset']
 longdat = longdat.drop(columns=['Subject', 'Session', 'Stamp', 'Trial', 'DesOnset', 'RecOnset', 
 			  'Stimulus', 'TargetButton', 'ResponseNum', 'ResponseButton',
 			  'Correct', 'Tally'])
+
+
+kill
+
 
 longdat.to_pickle('Hardwick_subj-%.0f.p' %subject)
