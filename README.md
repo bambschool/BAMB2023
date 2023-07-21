@@ -10,3 +10,10 @@ Tutorials for each day of BAMB! 2023. Each folder contains two tutorial versions
 ## Day 2 - Process Models of Decision Making: The Drift-Diffusion Model
 - [Tutorial slides: Simulating and fitting the drift-diffusion model](https://github.com/bambschool/BAMB2023/blob/main/2-drift_diffusion_models/BAMB_ddm_tutorial.pdf)
 - [Tutorial: Drift Diffusion Model](2-drift_diffusion_models) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/2-drift_diffusion_models/bamb_tutorial2_ddm.ipynb)
+
+
+## Day 3 - RL
+
+- [Tutorial: RL3A](https://github.com/bambschool/BAMB2023/blob/main/3-reinforcement_learning/3A-reinforcement_learning/tutorial_3A_RL-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/3A-reinforcement_learning/tutorial_3A_RL-instructions.ipynb)
+- [Tutorial RL3B](https://github.com/bambschool/BAMB2023/blob/main/3-reinforcement_learning/tutorial_3B_RL-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/tutorial_3B_RL-instructions.ipynb)
+
