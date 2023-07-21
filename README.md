@@ -14,6 +14,6 @@ Tutorials for each day of BAMB! 2023. Each folder contains two tutorial versions
 
 ## Day 3 - RL
 
-- [Tutorial: RL3A](3A-reinforcement_learning) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/3A-reinforcement_learning/tutorial_3A_RL-instructions.ipynb)
-- [Tutorial RL3B](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/tutorial_3B_RL-instructions.ipynb)
+- [Tutorial: RL3A](https://github.com/bambschool/BAMB2023/blob/main/3-reinforcement_learning/3A-reinforcement_learning/tutorial_3A_RL-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/3A-reinforcement_learning/tutorial_3A_RL-instructions.ipynb)
+- [Tutorial RL3B](https://github.com/bambschool/BAMB2023/blob/main/3-reinforcement_learning/tutorial_3B_RL-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/tutorial_3B_RL-instructions.ipynb)
 
