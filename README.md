@@ -13,7 +13,7 @@ Tutorials for each day of BAMB! 2023. Each folder contains two tutorial versions
 
 
 ## Day 3 - Rein
-- [Tutorial RL3A]()
+- [Tutorial RL3A](Tutorial RL3A (https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/tutorial_3B_RL-solutions.ipynb)
 - [Tutorial RL3B](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/tutorial_3B_RL-instructions.ipynb)
 -
 -
