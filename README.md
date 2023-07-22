@@ -17,3 +17,8 @@ Tutorials for each day of BAMB! 2023. Each folder contains two tutorial versions
 - [Tutorial: RL3A](https://github.com/bambschool/BAMB2023/blob/main/3-reinforcement_learning/3A-reinforcement_learning/tutorial_3A_RL-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/3A-reinforcement_learning/tutorial_3A_RL-instructions.ipynb)
 - [Tutorial RL3B](https://github.com/bambschool/BAMB2023/blob/main/3-reinforcement_learning/tutorial_3B_RL-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/3-reinforcement_learning/tutorial_3B_RL-instructions.ipynb)
 
+## Day 4 - Recurrent Neural Networks
+
+- [Lecture slides](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/BAMB_neural_networks.pptx)
+- [Tutorial slides](https://docs.google.com/presentation/d/1yJUUGrmpRD54w2IredDGue1AsZKu7Jdt5UDIPIWijtk/edit?usp=sharing)
+- [Tutorial: RNNs](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-instructions.ipynb)
