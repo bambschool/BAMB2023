@@ -22,3 +22,12 @@ Tutorials for each day of BAMB! 2023. Each folder contains two tutorial versions
 - [Lecture slides](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/BAMB_neural_networks.pptx)
 - [Tutorial slides](https://docs.google.com/presentation/d/1yJUUGrmpRD54w2IredDGue1AsZKu7Jdt5UDIPIWijtk/edit?usp=sharing)
 - [Tutorial: RNNs](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-instructions.ipynb)
+
+## Day 5 - Bayesian models
+
+- [Tutorial: Bayesian models](https://github.com/bambschool/BAMB2023/tree/main/5-bayesian_models) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/5-bayesian_models/Tutorial5_BayesianModels_Instructions.ipynb)
+
+## Day 6 - Latent variable models
+
+- [Tutorial: Latent variable models](https://github.com/bambschool/BAMB2023/tree/main/6-latent_variable_models) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/6-latent_variable_models/hidden-markov-models.ipynb)
+- [Tutorial: Mixture models (EM)](https://github.com/bambschool/BAMB2023/tree/main/6-latent_variable_models) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/6-latent_variable_models/mixture-models-EM.ipynb)
