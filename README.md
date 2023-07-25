@@ -29,5 +29,5 @@ Tutorials for each day of BAMB! 2023. Each folder contains two tutorial versions
 
 ## Day 6 - Latent variable models
 
-- [Tutorial: Mixture models and EM]
+- [Tutorial: Mixture models and EM](https://github.com/bambschool/BAMB2023/tree/main/6-latent_variable_models) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/6-latent_variable_models/mixture-models-EM_solutions.ipynb)
 - [Tutorial: Hidden Markov models](https://github.com/bambschool/BAMB2023/tree/main/6-latent_variable_models) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/6-latent_variable_models/hidden-markov-models.ipynb)
