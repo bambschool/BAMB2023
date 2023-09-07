@@ -4,4 +4,4 @@ This tutorial is adapted from the code associated with the following paper:
 
 Two main python notebooks are provided, one with the instructions and one with the solutions, together with RL_library.py, which contains a number of pre-coded functions useful for the tutorial.
 
-Credit for the adaptation: Marion Rouault, Heike Stein
+Credit for the adaptation: Marion Rouault, Max Shinn
