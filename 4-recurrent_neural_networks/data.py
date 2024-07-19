@@ -38,7 +38,10 @@ class Dataset(object):
         for env in self.envs:
             env.reset()
         self.seed()
-        env = ngym.wrappers.side_bias.SideBias(env, probs=wrappers_kwargs['probs'])
+        # small hack to pass probabilities to side_bias wrapper
+        probs = np.array(wrappers_kwargs['probs']).reshape(1, 2)
+        # add side_bias wrapper
+        env = ngym.wrappers.side_bias.SideBias(env, probs=probs)
         env = self.envs[0]
         self.env = env
         self.batch_size = batch_size
