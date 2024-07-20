@@ -27,22 +27,15 @@ class Dataset(object):
     def __init__(self, env, env_kwargs=None, wrappers_kwargs={'probs': [0.5, 0.5]},
                  batch_size=1, seq_len=None, max_batch=np.inf,
                  batch_first=False, cache_len=None):
-        if isinstance(env, gym.Env):
-            self.envs = [copy.deepcopy(env) for _ in range(batch_size)]
-        else:
-            assert isinstance(env, str), 'env must be gym.Env or str'
-            if env_kwargs is None:
-                env_kwargs = {}
-            self.envs = [gym.make(env, **env_kwargs)
-                         for _ in range(batch_size)]
-        for env in self.envs:
-            env.reset()
-        self.seed()
+        if env_kwargs is None:
+            env_kwargs = {}
+        env = gym.make(env, **env_kwargs)
         # small hack to pass probabilities to side_bias wrapper
         probs = np.array(wrappers_kwargs['probs']).reshape(1, 2)
         # add side_bias wrapper
         env = ngym.wrappers.side_bias.SideBias(env, probs=probs)
-        env = self.envs[0]
+        env.reset()
+        self.seed()
         self.env = env
         self.batch_size = batch_size
         self.batch_first = batch_first
