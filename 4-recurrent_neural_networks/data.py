@@ -146,6 +146,28 @@ class Dataset(object):
                 env.seed(seed + i)
 
 
+def get_dataset(envid, env_kwargs, wrappers_kwargs, training_kwargs):
+    """
+    Create neurogym dataset and environment.
+
+    args:
+        envid (str): name of the task on the neurogym library
+        env_kwargs (dict): task parameters
+        training_kwargs (dict): training parameters
+
+    returns:
+        dataset (neurogym.Dataset): dataset object from which we can sample trials and labels
+        env (gym.Env): task environment
+    """
+
+    # Make supervised dataset using neurogym's Dataset class
+    dataset = Dataset(envid, env_kwargs=env_kwargs, wrappers_kwargs=wrappers_kwargs,
+                      batch_size=training_kwargs['batch_size'],
+                      seq_len=training_kwargs['seq_len'])
+    env = dataset.env
+
+    return dataset, env
+
 if __name__ == '__main__':
     import neurogym as ngym
     dataset = ngym.Dataset(
