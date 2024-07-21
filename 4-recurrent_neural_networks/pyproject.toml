@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bamb24-rnns"
+version = "0.1.0"
+description = "requirements for RNNs tutorial"
+authors = ["manuelmolano <manuelmolanomazon@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytorch = "^1.0.2"
+neurogym = "^0.0.2"
+scipy = "^1.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
