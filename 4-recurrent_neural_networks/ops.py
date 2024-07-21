@@ -91,3 +91,20 @@ class efficieNet(nn.Module):
         out, _ = self.vanilla(x)
         x = self.linear(out)
         return x, out
+    
+
+class RLNet(nn.Module):
+    def __init__(self, input_size, hidden_size, output_size):
+        super(RLNet, self).__init__()
+
+        self.hidden_size = hidden_size
+        # RNN with a single recurrent layer and rectified linear units
+        self.vanilla = nn.RNN(input_size, hidden_size, nonlinearity='relu')
+        self.linear = nn.Linear(hidden_size, output_size)
+
+    def forward(self, x, hidden=None):
+        # If hidden state is not provided, initialize it
+        # get the output of the network for a given input
+        out, _ = self.vanilla(x, hidden)
+        x = self.linear(out)
+        return x, out
