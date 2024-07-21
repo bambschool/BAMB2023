@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import numpy as np
 import matplotlib.pyplot as plt
+import torch.nn as nn
 
 def get_modelpath(envid):
     """
@@ -51,3 +52,19 @@ def plot_trial_sequence(correct_choice, block):
     plt.xlabel('Trial')
     plt.ylabel('Correct choice')
     plt.legend()    
+
+
+
+class efficieNet(nn.Module):
+    def __init__(self, input_size, hidden_size, output_size):
+        super(efficieNet, self).__init__()
+
+        # INSTRUCTION 1: build a recurrent neural network with a single recurrent layer and rectified linear units
+        self.vanilla = nn.RNN(input_size, hidden_size, nonlinearity='relu')
+        self.linear = nn.Linear(hidden_size, output_size)
+
+    def forward(self, x):
+        # INSTRUCTION 2: get the output of the network for a given input
+        out, _ = self.vanilla(x)
+        x = self.linear(out)
+        return x, out
