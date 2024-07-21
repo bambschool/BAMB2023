@@ -23,7 +23,6 @@ def plot_trials_timestep(inputs, actions, gt, perf, env_kwargs, num_steps=None, 
     actions = np.array(actions)
     gt = np.array(gt)
     perf = np.array(perf)
-    reward = np.array(reward)   
     # Plot first 40 steps
     if num_steps is None:
         num_steps = len(gt)
@@ -40,6 +39,7 @@ def plot_trials_timestep(inputs, actions, gt, perf, env_kwargs, num_steps=None, 
     ax[1].legend()
     ax[2].plot(np.arange(1, num_steps+1)*env_kwargs['dt'], perf[:num_steps], label='Accuracy')
     if reward is not None:
+        reward = np.array(reward)   
         ax[2].plot(np.arange(1, num_steps+1)*env_kwargs['dt'], reward[:num_steps], label='reward')
     ax[2].set_ylabel('Performance')
     ax[1].legend()
