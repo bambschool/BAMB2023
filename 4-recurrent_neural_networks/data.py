@@ -33,8 +33,8 @@ class Dataset(object):
         # add side_bias wrapper
         env = ngym.wrappers.side_bias.SideBias(env, probs=wrappers_kwargs['probs'])
         env.reset()
-        self.seed()
         self.env = env
+        self.seed()
         self.batch_size = batch_size
         self.batch_first = batch_first
 
