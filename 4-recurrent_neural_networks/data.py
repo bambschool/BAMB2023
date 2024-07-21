@@ -78,7 +78,7 @@ class Dataset(object):
 
     def _cache(self, **kwargs):
         for i in range(self.batch_size):
-            env = self.envs[i]
+            env = self.env
             seq_start = 0
             seq_end = 0
             while seq_end < self._cache_len:
@@ -130,11 +130,8 @@ class Dataset(object):
         # return inputs, np.expand_dims(target, axis=2)
 
     def seed(self, seed=None):
-        for i, env in enumerate(self.envs):
-            if seed is None:
-                env.seed(seed)
-            else:
-                env.seed(seed + i)
+        self.env.seed(seed)
+
 
 
 def get_dataset(envid, env_kwargs, wrappers_kwargs, training_kwargs):
