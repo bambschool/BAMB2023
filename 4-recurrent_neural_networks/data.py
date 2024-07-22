@@ -131,7 +131,7 @@ class Dataset(object):
 
 
 
-def get_dataset(envid, env_kwargs, wrappers_kwargs, training_kwargs):
+def get_dataset(envid, env_kwargs, training_kwargs):
     """
     Create neurogym dataset and environment.
 
@@ -146,7 +146,7 @@ def get_dataset(envid, env_kwargs, wrappers_kwargs, training_kwargs):
     """
 
     # Make supervised dataset using neurogym's Dataset class
-    dataset = Dataset(envid, env_kwargs=env_kwargs, wrappers_kwargs=wrappers_kwargs,
+    dataset = Dataset(envid, env_kwargs=env_kwargs,
                       batch_size=training_kwargs['batch_size'],
                       seq_len=training_kwargs['seq_len'])
     env = dataset.env
