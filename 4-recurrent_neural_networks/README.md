@@ -24,7 +24,6 @@ In this tutorial we will learn how to use recurrent neural networks (RNNs) to so
 - [Tutorial slides](https://docs.google.com/presentation/d/1yJUUGrmpRD54w2IredDGue1AsZKu7Jdt5UDIPIWijtk/edit?usp=sharing)
 - [Tutorial: RNNs](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-instructions.ipynb)
 - [Tutorial solutions: RNNs](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-solutions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-solutions.ipynb)
-- [Tutorial solutions: RNNs](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs_bis-solutions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs_bis-solutions.ipynb)
 - [NeuroGym](https://neurogym.github.io/)
 - [PyTorch](https://pytorch.org/)
 
