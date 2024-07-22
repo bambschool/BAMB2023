@@ -45,16 +45,6 @@ def plot_trials_timestep(inputs, actions, gt, perf, env_kwargs, num_steps=None, 
     ax[1].legend()
     ax[2].set_xlabel('Time (ms)')
 
-def plot_trial_sequence(correct_choice, block):
-    
-    # Plot correct choice
-    f = plt.figure(figsize=(8, 4), dpi=150)
-    plt.plot(np.arange(1, len(correct_choice)+1), correct_choice, label='Correct choice')
-    plt.plot(np.arange(1, len(correct_choice)+1), np.array(block)+1, '--', label='Block')
-    plt.xlabel('Trial')
-    plt.ylabel('Correct choice')
-    plt.legend()    
-
 
 def probit(x, beta, alpha):
     """
@@ -92,19 +82,3 @@ class efficieNet(nn.Module):
         x = self.linear(out)
         return x, out
     
-
-class RLNet(nn.Module):
-    def __init__(self, input_size, hidden_size, output_size):
-        super(RLNet, self).__init__()
-
-        self.hidden_size = hidden_size
-        # RNN with a single recurrent layer and rectified linear units
-        self.vanilla = nn.RNN(input_size+2, hidden_size, nonlinearity='relu')
-        self.linear = nn.Linear(hidden_size, output_size)
-
-    def forward(self, x, hidden=None):
-        # If hidden state is not provided, initialize it
-        # get the output of the network for a given input
-        out, _ = self.vanilla(x, hidden)
-        x = self.linear(out)
-        return x, out

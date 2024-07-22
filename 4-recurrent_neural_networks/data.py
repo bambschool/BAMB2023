@@ -24,14 +24,11 @@ class Dataset(object):
         cache_len: int, default length of caching
     """
 
-    def __init__(self, env, env_kwargs=None, wrappers_kwargs={'probs': [[0.5, 0.5]], 'block_dur': 200},
-                 batch_size=1, seq_len=None, max_batch=np.inf,
+    def __init__(self, env, env_kwargs=None, batch_size=1, seq_len=None, max_batch=np.inf,
                  batch_first=False, cache_len=None):
         if env_kwargs is None:
             env_kwargs = {}
         env = gym.make(env, **env_kwargs)
-        # add side_bias wrapper
-        env = ngym.wrappers.side_bias.SideBias(env, probs=wrappers_kwargs['probs'], block_dur= wrappers_kwargs['block_dur'])
         env.reset()
         self.env = env
         self.seed()
