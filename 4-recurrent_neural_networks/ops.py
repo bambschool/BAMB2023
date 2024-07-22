@@ -99,7 +99,7 @@ class RLNet(nn.Module):
 
         self.hidden_size = hidden_size
         # RNN with a single recurrent layer and rectified linear units
-        self.vanilla = nn.RNN(input_size, hidden_size, nonlinearity='relu')
+        self.vanilla = nn.RNN(input_size+2, hidden_size, nonlinearity='relu')
         self.linear = nn.Linear(hidden_size, output_size)
 
     def forward(self, x, hidden=None):
