@@ -21,7 +21,7 @@ In this tutorial we will learn how to use recurrent neural networks (RNNs) to so
 ## Relevant links:
 
 - [Lecture slides](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/BAMB_neural_networks.pptx)
-- [Tutorial slides](https://docs.google.com/presentation/d/1yJUUGrmpRD54w2IredDGue1AsZKu7Jdt5UDIPIWijtk/edit?usp=sharing)
+- [Tutorial slides](https://docs.google.com/presentation/d/1IgJXLB3hCKkwxIctoaZcPjJTR-q_2tCV4Of1PWSpF6I/edit?usp=sharing)
 - [Tutorial: RNNs](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-instructions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-instructions.ipynb)
 - [Tutorial solutions: Models](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_models-solutions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_models-solutions.ipynb)
 - [Tutorial solutions: RNNs](https://github.com/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-solutions.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bambschool/BAMB2023/blob/main/4-recurrent_neural_networks/tutorial_4_RNNs-solutions.ipynb)
